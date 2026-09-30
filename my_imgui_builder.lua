@@ -1,3 +1,7 @@
+if type(MakeRequest) ~= "function" then
+   MakeRequest = makerequest
+end
+
 -- My ImGui Builder Library
 local Builder = {}
 Builder.__index = Builder
